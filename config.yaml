@@ -25,7 +25,7 @@ params:
   css: /assets/scss/
 
   logos:
-    lepidus: /img/logoLepidus.png
+    logoLepidus: /img/logoLepidusTecnologia.png
     logoPeriodicoEmNuvens: /img/logoPeriodicoEmNuvens.png
 
   # Date format for post list and single pages
