@@ -400,13 +400,13 @@ figure {
   cursor: pointer; }
 
 .containerServices h3::before {
-  content: '⏵';
+  content: '\23F5';
   margin-right: 10px;
   color: #333;
   font-size: 1.5625rem; }
 
 .containerServices h3.activeBlockquote::before {
-  content: '⏷'; }
+  content: '\23f7'; }
 
 blockquote {
   display: none;
