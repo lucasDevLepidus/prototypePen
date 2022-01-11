@@ -4,9 +4,6 @@ defaultContentLanguage: pt
 title: Periódicos em Nuvens | Soluções para revistas acadêmicas em SEER / OJS
 theme: cayman-hugo-theme
 
-# Disqus comments
-disqusShortname: yourdiscussshortname
-
 # Syntax highlighting
 pygmentsCodefences: true
 pygmentsStyle: pygments
@@ -33,7 +30,7 @@ params:
   dateFormat: 01-02-2006
 
   # Footer text, can be markdown
-  footer: Feito com [Hugo](https://gohugo.io/). Tema por [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme).
+  footer: Feito com [Hugo](https://gohugo.io/). Baseado no tema [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme).
 
   # If true, the CSS/JS for Katex math typesetting are enabled
   katex: false
@@ -49,7 +46,7 @@ params:
 
   # Text colors
   section_headings_color: "#159957"
-  body_text_color: "#606c71"
+  body_text_color: "#26292a"
   body_link_color: "#1e6bb8"
   blockquote_text_color: "#819198"
 
