@@ -403,7 +403,7 @@ figure {
   content: '\23F5';
   margin-right: 10px;
   color: #333;
-  font-size: 1.5625rem; }
+  font-size: 21px; }
 
 .containerServices h3.activeBlockquote::before {
   content: '\23f7'; }
