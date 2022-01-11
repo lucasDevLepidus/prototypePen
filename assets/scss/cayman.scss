@@ -629,10 +629,10 @@ blockquote {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   blockquote {
     &.activeBlockquote{
-      animation: slideDown500 1s forwards;
+      animation: slideDownMobile 1s forwards;
     }
   }
 }
@@ -648,7 +648,7 @@ blockquote {
   }
 }
 
-@keyframes slideDown500{
+@keyframes slideDownMobile{
   from {
     opacity: 0;
     max-height: 0;

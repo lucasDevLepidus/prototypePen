@@ -422,9 +422,9 @@ blockquote {
     display: block;
     animation: slideDown 1s forwards; }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   blockquote.activeBlockquote {
-    animation: slideDown500 1s forwards; } }
+    animation: slideDownMobile 1s forwards; } }
 
 @keyframes slideDown {
   from {
@@ -434,7 +434,7 @@ blockquote {
     max-height: 900px;
     opacity: 1; } }
 
-@keyframes slideDown500 {
+@keyframes slideDownMobile {
   from {
     opacity: 0;
     max-height: 0; }
