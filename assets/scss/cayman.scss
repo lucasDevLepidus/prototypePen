@@ -594,15 +594,17 @@ figure{
   h3 {
     cursor: pointer;
   }
-  h3::after {
-    content: '▼';
-    margin-left: 10px;
+  h3::before {
+    // content: '▼';
+    content: '⏵';
+    margin-right: 10px;
     color: #333;
-    font-size: 10px;
+    font-size: 1.5625rem;
   }
   
-  h3.activeBlockquote::after {
-    content: '▲';
+  h3.activeBlockquote::before {
+    // content: '▲';
+    content: '⏷';
   }
 }
 
@@ -627,6 +629,14 @@ blockquote {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  blockquote {
+    &.activeBlockquote{
+      animation: slideDown500 1s forwards;
+    }
+  }
+}
+
 @keyframes slideDown {
   from {
     opacity: 0;
@@ -634,6 +644,17 @@ blockquote {
   }
   to {
     max-height: 900px;
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown500{
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    max-height: 2000px;
     opacity: 1;
   }
 }
